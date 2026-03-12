@@ -1,0 +1,125 @@
+body{
+font-family:Arial;
+margin:0;
+background:#f4f6f9;
+}
+
+header{
+background:#4a6cf7;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+}
+
+.hero{
+text-align:center;
+padding:80px 20px;
+}
+
+.btn{
+background:#4a6cf7;
+color:white;
+padding:12px 20px;
+border-radius:6px;
+text-decoration:none;
+}
+
+.features{
+display:flex;
+justify-content:center;
+gap:30px;
+padding:40px;
+}
+
+.feature{
+background:white;
+padding:20px;
+border-radius:10px;
+width:200px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.container{
+width:70%;
+margin:auto;
+background:white;
+padding:20px;
+margin-top:30px;
+border-radius:10px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+table,th,td{
+border:1px solid #ccc;
+padding:10px;
+}
+
+.pricing{
+display:flex;
+justify-content:center;
+gap:30px;
+padding:40px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:10px;
+width:250px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.highlight{
+border:2px solid #4a6cf7;
+}
+
+input,textarea{
+width:100%;
+padding:10px;
+margin:10px 0;
+}
+
+button{
+background:#4a6cf7;
+color:white;
+border:none;
+padding:10px 20px;
+}
+
+canvas{
+border:1px solid black;
+}
+
+/* responsive */
+
+@media(max-width:1024px){
+.features{
+flex-direction:column;
+align-items:center;
+}
+}
+
+@media(max-width:768px){
+.container{
+width:90%;
+}
+}
+
+@media(max-width:480px){
+nav{
+display:none;
+}
+.menu-btn{
+display:block;
+}
+}

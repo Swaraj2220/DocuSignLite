@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Upload Document</title>
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+<header>
+
+<h1>Upload Contract</h1>
+
+<nav>
+
+<a href="index.html">Home</a>
+<a href="upload.html">Upload</a>
+<a href="signers.html">Signers</a>
+<a href="pricing.html">Pricing</a>
+<a href="contact.html">Contact</a>
+
+</nav>
+
+</header>
+
+
+<section class="container">
+
+<h2>Upload Contract</h2>
+
+<input type="file" id="file">
+
+<button onclick="uploadFile()">Upload</button>
+
+<p id="uploadStatus"></p>
+
+</section>
+
+
+<section class="container">
+
+<h2>Signature Pad</h2>
+
+<canvas id="pad" width="400" height="200"></canvas>
+
+<br>
+
+<button onclick="clearPad()">Clear</button>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
